@@ -10,7 +10,7 @@
    
         #if the remainder when dividing the number by i is equal to zero - i is a divisor so...
        
-            #add i to the list you set up
+            #append i to the list you set up
             
     #return the list
     
