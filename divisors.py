@@ -10,8 +10,10 @@ def divisors(number):
     for i in range(1,number):
         #if the remainder when dividing the number by i is equal to zero - i is a divisor so...
         if (number%i==0):
-            #add i to the list you set up
+            #apend i to the list you set up
             divisorList.append(i)
+       
+ 
     #return the list
     return divisorList
     
