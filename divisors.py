@@ -1,6 +1,11 @@
+#Add your name here
+#Add the date here
+#Add the filename here
+
 #Add a function below called divisors(num) which takes one argument of type integer
 #and returns a list of all the divisors(factors) of that that number -
 #A divisor or factor is a number which divides evenly leaving no remainder
+
 #define the funciton header called divisors expecting one argument
 
     #set up an empty list to hold your result
