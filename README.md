@@ -13,7 +13,7 @@ will return true if the number is perfect and false if it is not
 
 The solution is then to keep a count (accumulator varialbe) of the total number of perfect numbers found and
 keep trying to find another perfect number until 5 are found. Each time around the loop we must also increment the testNumber by 1
-
+```
 totalPFs = 0
 testNumber = 1
 while (totalPFs <5):
@@ -21,6 +21,7 @@ while (totalPFs <5):
         print(testNumber,"is a perfect number")
         totalPFs = totalPFs + 1
         testNumber = testNumber + 1
+```
         
 Having imagined a function (perfectNumber) that tells us whether a number is perfect or not the solution is simple.
 Now we tackle the problem at a lower level and try to figure out how to create the perfectNumber function. If only we had a function that
