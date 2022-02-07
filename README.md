@@ -23,6 +23,9 @@ while (totalPFs <5):
         testNumber = testNumber + 1
 ```
         
-Having imagined a function (perfectNumber) that tells us whether a number is perfect or not the solution is simple.
+Having imagined a function (perfectNumber) that tells us whether a number is perfect or not, the solution is simple.
 Now we tackle the problem at a lower level and try to figure out how to create the perfectNumber function. If only we had a function that
 gave us back a list of all the divisors of the function - the solution would be easier - so we imagine a function like that.
+
+In the exercise open the file divisors.py and translate the pseudo code to create a function which will return a list of divisors
+Then open the file perfectNumber.py and translate the psuedo code to create a function which will return True or False based on whether the number passed is perfect or not
