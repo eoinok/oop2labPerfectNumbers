@@ -1,5 +1,5 @@
 # oop2labPerfectNumbers
-This lab exercise has three objectives
+This lab exercise has three objectives:
 - To get you started using git and github
 - To guide you through a Top Down Design solution to a problem
 - To get you to correctly translate pseudo-code
