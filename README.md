@@ -1,8 +1,8 @@
 # oop2labPerfectNumbers
 This lab exercise has three objectives
-To get you started using git and github
-To guide you through a Top Down Design solution to a problem
-To get you to correctly translate pseudo-code
+- To get you started using git and github
+- To guide you through a Top Down Design solution to a problem
+- To get you to correctly translate pseudo-code
 
 The challenge is to find the first five "perfect Numbers" - 
 A perfect Number is one for which the sum of all it's divisors adds up to the number itself.
