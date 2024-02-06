@@ -13,7 +13,7 @@ Using a "Top down design" approach we imagine a function that when passed a numb
 will return true if the number is perfect and false if it is not
 
 The solution is then to keep a count (in an accumulator varialbe) of the total number of perfect numbers found and
-keep trying to find another perfect number until 5 are found. Each time around the loop we must also increment the testNumber by 1
+keep trying to find another perfect number until four are found. Each time around the loop we must also increment the testNumber by 1
 ```
 totalPFs = 0
 testNumber = 1
