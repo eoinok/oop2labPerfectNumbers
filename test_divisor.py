@@ -1,7 +1,9 @@
-#test_divisor.py
+#test_vehicle.py
 import pytest
-from divisors import divisors
+from Vehicle import Vehicle
 
-def test_divisors():
-    divisorList = [1,2,4,7,14]
-    assert divisors(28) == divisorList
+def test_vehicle():
+    myVehicle = Vehicle("00D1122","Ford","Mondeo")
+    myVehicle.set_miles(10000)
+    assert myVehicle.getMakeModel() == "Ford Mondeo"
+
