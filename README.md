@@ -5,7 +5,7 @@ This lab exercise has four objectives:
 - To guide you through a Top Down Design solution to a problem
 - To get you to correctly translate pseudo-code
 
-The challenge is to find the first fourt "perfect Numbers" - 
+The challenge is to find the first four "perfect Numbers" - 
 A perfect Number is one for which the sum of all it's divisors adds up to the number itself.
 These numbers are rare. The first three are 6, 28, 496
 
