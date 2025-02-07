@@ -1,12 +1,6 @@
-#run this program when you have completed the first two parts of the exercise
-#if you have completed the first two parts correctly this will find the first four perfect nubmers
+#Write a program here that finds the first four perfect numbers.
+#Put your name and date at the top of the file.
+#The pseudocode in the README.md file will help you write this program.
 
-from perfectNumber import perfectNumber
 
-totalPFs = 0
-testNumber = 1
-while (totalPFs <= 4):
-    if (perfectNumber(testNumber)):
-        print(testNumber," is a perfect number")
-        totalPFs = totalPFs + 1
-        testNumber = testNumber + 1
+
