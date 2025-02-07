@@ -15,13 +15,13 @@ will return true if the number is perfect and false if it is not
 The solution is then to keep a count (in an accumulator varialbe) of the total number of perfect numbers found and
 keep trying to find another perfect number until four are found. Each time around the loop we must also increment the testNumber by 1
 ```
-totalPFs = 0
-testNumber = 1
-while (totalPFs <= 4):
-    if (perfectNumber(testNumber)):
-        print(testNumber,"is a perfect number")
-        totalPFs = totalPFs + 1
-        testNumber = testNumber + 1
+set the totalPFs variable to 0
+set the testNumber variable to 1
+while the totalPFs variable is less than or equal to 3
+    if the testNumber is a perfect
+        print the testNumber is a perfect number
+        increment the totalPFs variable by 1
+    increment the testNumber variable
 ```
         
 Having imagined a function (perfectNumber) that tells us whether a number is perfect or not, the high-level solution is simple.
@@ -30,10 +30,10 @@ gave us back a list of all the divisors of the function - the solution would be 
 
 In the exercise:
 # Step 1
-Open the file divisors.py and translate the pseudo code to create a function which will return a list of divisors. 
+Open the file divisors.py and translate the pseudo code to create a function which will return a list of divisors. Before moving on to Step 2, make sure print(divisors(30)) works correctly
 
 # Step 2
-Open the file perfectNumber.py and translate the psuedo code to create a function which will return True or False based on whether the number passed is perfect or not
+Open the file perfectNumber.py and translate the psuedo code to create a function which will return True or False based on whether the number passed is perfect or not. Before moving on to step 3, make sure to uncomment the last line to test if 8128 is a perfect number
 
 # Step 3
-run the program in findFirstFourPNs.py to find the first four perfect numbers 
+Create a program in findFirstFourPNs.py to find the first four perfect numbers, use the high-level pseudo-cod solution outlined at the beginning of this README
