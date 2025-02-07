@@ -1,6 +1,5 @@
 #test_perfectNumber.py
-import pytest
-from divisors import divisors
+from perfectNumber import perfectNumber
 
-def test_():
-    assert divisors(30) == [1,2,3,5,6]
+def test_perfect_number_8128():
+    assert perfectNumber(8128) == True
